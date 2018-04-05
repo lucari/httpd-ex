@@ -2,7 +2,7 @@
 
 echo "last-one.sh has been run under httpd-post-assemble"
 
-PODHOST=`pwd`
+PODHOST=`hostname`
 
 cat >showme.html <<EOF
 <HTML><HEAD><TITLE>Show who I am page</TITLE></HEAD>
