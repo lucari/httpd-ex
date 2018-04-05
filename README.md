@@ -22,4 +22,4 @@ You can also deploy the sample template for the application:
 
 `$ oc new-app -f https://raw.githubusercontent.com/openshift/httpd-ex/master/openshift/templates/httpd.json`
 
-Note. To add customisation, files can be added under .s2i/bin (assemble) or just add scripts under 
+Note. To add customisation, files can be added under .s2i/bin (assemble) but these will override the default ones in /usr/libexec/s2i. Alternatively just add scripts (*.sh) under httpd-post-assemble.
