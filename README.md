@@ -21,3 +21,5 @@ working `oc` command line environment connected to your cluster already:
 You can also deploy the sample template for the application:
 
 `$ oc new-app -f https://raw.githubusercontent.com/openshift/httpd-ex/master/openshift/templates/httpd.json`
+
+Note. To add customisation, files can be added under .s2i/bin (assemble) or just add scripts under 
